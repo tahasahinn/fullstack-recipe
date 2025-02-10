@@ -1,7 +1,7 @@
 import { readRecipes, writeRecipes } from "../model/recipeModel.js";
 import isInValid from "../utils/isInValid.js";
 import crypto from "crypto";
-
+s
 const data = readRecipes();
 
 export const getAllRecipes = (req, res) => {
