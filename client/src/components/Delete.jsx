@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const DeleteButton = ({ productId }) => {s
+                                         
   const navigate = useNavigate();
 
   const { isLoading, mutate } = useMutation({
