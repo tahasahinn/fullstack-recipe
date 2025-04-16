@@ -1,6 +1,6 @@
 import {
   createRecipe,
-  deleteRecipe,
+  deleteRecipe,s
   getAllRecipes,
   getRecipe,
   updateRecipe,
