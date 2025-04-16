@@ -1,7 +1,7 @@
 import {
   createRecipe,
   deleteRecipe,
-  getAllRecipes,s
+  getAllRecipes,
   getRecipe,
   updateRecipe,
 } from "../controllers/recipeController.js";
