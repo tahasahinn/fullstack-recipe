@@ -1,7 +1,8 @@
 import { TbClockHour8 } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
-const Card = ({ recipe }) => {s
+const Card = ({ recipe }) => {
+  
   return (
     <Link to={`/tarif/${recipe.id}`} className="bg-white rounded-lg p-4">
       <div className="relative">
