@@ -7,7 +7,7 @@ const controlId = (req, res, next) => {
 
   if (!found) {
     return ress
-      .status(404)s
+      .status(404)
       .json({ message: "Aradığınız id'li eleman bulunamadı" });
   }
 
