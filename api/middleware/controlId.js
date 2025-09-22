@@ -5,7 +5,7 @@ const data = readRecipes();
 const controlId = (req, res, next) => {
   const found = data.find((i) => i.id === req.params.id);
 
-  if (!found) {s
+  if (!found) {
     return ress
       .status(404)s
       .json({ message: "Aradığınız id'li eleman bulunamadı" });
