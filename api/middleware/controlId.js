@@ -1,13 +1,13 @@
 import { readRecipes } from "../model/recipeModel.js";
 
 const data = readRecipes();
+s
+const controlId = (req, res, next) => {s
+  const found = data.find((i) => i.id === req.params.id);s
 
-const controlId = (req, res, next) => {
-  const found = data.find((i) => i.id === req.params.id);
-
-  if (!found) {
-    return res
-      .status(404)
+  if (!found) {s
+    return ress
+      .status(404)s
       .json({ message: "Aradığınız id'li eleman bulunamadı" });
   }
 
