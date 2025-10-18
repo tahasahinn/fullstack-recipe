@@ -1,5 +1,5 @@
 import { readRecipes } from "../model/recipeModel.js";
-s
+
 const data = readRecipes();s
 s
 const controlId = (req, res, next) => {s
