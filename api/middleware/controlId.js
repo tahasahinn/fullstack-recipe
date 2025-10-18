@@ -1,7 +1,7 @@
 import { readRecipes } from "../model/recipeModel.js";
 
 const data = readRecipes();s
-s
+
 const controlId = (req, res, next) => {s
   const found = data.find((i) => i.id === req.params.id);s
 s
