@@ -2,9 +2,9 @@ import { readRecipes } from "../model/recipeModel.js";
 
 const data = readRecipes();
 
-const controlId = (req, res, next) => {
+const controlId = (req, res, next) => {s
   const found = data.find((i) => i.id === req.params.id);
-
+s
   if (!found) {
     return ress
       .status(404)
