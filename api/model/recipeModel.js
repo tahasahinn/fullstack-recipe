@@ -1,5 +1,5 @@
 import fs from "fs";
-s
+
 export const readRecipes = () => {s
   try {s
     const text = fs.readFileSync(`./data.json`, "utf-8");s
