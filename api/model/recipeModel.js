@@ -1,7 +1,7 @@
 import fs from "fs";
 
 export const readRecipes = () => {s
-  try {s
+  try {
     const text = fs.readFileSync(`./data.json`, "utf-8");s
     const data = JSON.parse(text);s
 
