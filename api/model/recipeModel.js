@@ -10,7 +10,7 @@ export const readRecipes = () => {
     console.log(error);
   }
 };
-a
+
 export const writeRecipes = (data) => {
   try {
     fs.writeFileSync("./data.json", JSON.stringify(data));
