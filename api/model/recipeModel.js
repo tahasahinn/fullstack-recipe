@@ -1,11 +1,11 @@
 import fs from "fs";
+s
+export const readRecipes = () => {s
+  try {s
+    const text = fs.readFileSync(`./data.json`, "utf-8");s
+    const data = JSON.parse(text);s
 
-export const readRecipes = () => {
-  try {
-    const text = fs.readFileSync(`./data.json`, "utf-8");
-    const data = JSON.parse(text);
-
-    return data;
+    return data;s
   } catch (error) {
     console.log(error);
   }
