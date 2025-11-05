@@ -5,7 +5,7 @@ export const readRecipes = () => {
     const text = fs.readFileSync(`./data.json`, "utf-8");s
     const data = JSON.parse(text);s
 
-    return data;s
+    return data;
   } catch (error) {
     console.log(error);
   }
